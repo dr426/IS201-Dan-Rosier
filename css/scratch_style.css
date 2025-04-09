@@ -1,0 +1,146 @@
+/* Dan Rosier
+IS 201
+4/8/2025 */
+
+/* set color and font for main body text */
+body {
+    color: #555555;
+    background-color: #b7e7f3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* set background color for containters (and their borders) for use during editing -- will comment out when finished */
+.common {
+    /* background-color: #cccccc;
+    border: 2px solid #b7e7f3; */
+    position: absolute;
+}
+
+/* set header container size and padding, with border line */
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: solid 1px #555555;
+}
+
+/* set subheader to use for links to other pages */
+.subheader {
+    float: right;
+}
+
+/* set left menu container size and padding, with border line */
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    bottom: 300px;
+    width: 120px;
+    padding: 5px;
+    /* padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;*/
+    border-right: solid 1px #555555;
+}
+
+/* set main body container size and padding */
+.mainbody {
+    top: 114px;
+    left: 144px;
+    right: 5px;
+    bottom: 39px;
+    padding: 5px;
+    /* padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px; */
+    z-index: 1;
+}
+
+/* set footer container size and padding */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 26px;
+    font-size: 12px;
+    color: #555555;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    z-index: 2;
+    background-color: #b7e7f3;
+}
+
+/* setting custom h1 style */
+h1 {
+    font-size: 18px;
+    color: #555555;
+    text-align: left;
+}
+
+/* setting custom bold style rules for headers of bulleted list for use in main body */
+.bold_list {
+    font-weight: bold;
+    color: #00085b;
+}
+
+/* setting custom bold style rules for sub-list headers for use in main body */
+.bold_sublist {
+    font-weight: bold;
+    color: #383838;
+}
+
+/* Setting style rules for links when dormant and hovered over */
+a {
+    color: #00085b;
+    text-decoration: none;
+}
+a:hover {
+    color: #00085b;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* STYLES FOR CLIMBING JARGON QUIZ */
+#climbing-quiz-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px 0;
+    padding-left: 5px;
+}
+#climbing-quiz-box h2 {
+    margin-top: 0;
+}
+.cq-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cq-btn:hover {
+    background: #005fa3;
+}
+.option-btn {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    text-align: left;
+}
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}

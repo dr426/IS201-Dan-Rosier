@@ -1,0 +1,296 @@
+<!--
+Dan Rosier
+IS 201
+4/8/2025
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch Page -- MY FAVORITE HOBBY: Rock Climbing</title>
+    <!-- Referencing scratch style sheet file to use in body below -->
+    <link rel="stylesheet" href="css/scratch_style.css">
+</head>
+
+<body>
+    <!-- Positioning header, menus, main body, and footers -->
+    <div class="common header">
+        <!-- Header with links to Home and other pages in blog to transition between them -->
+        <h1 id="top">Dan Rosier</h1>
+        <span class="subheader">
+            <a href="index.html">Home</a> | 
+            <a href="education.html">Education</a> | 
+            <a href="experience.html">Experience</a> | 
+            <a href="skills.html">Skills</a> | 
+            <a href="scratch.html">Scratch Page</a> | 
+            <a href="contact.html">Contact</a> 
+            
+        </span>
+    </div>
+
+    <div class="common leftmenu">
+        <!-- Quicklinks to different sections on the page. -->
+        <a href="#rock">Rock Climbing</a><br>
+        <a href="#req_gear">Required Gear</a><br>
+        <a href="#rew_asp">Rewarding Aspects</a><br>
+        <a href="#Alex">Alex Honnold Free Solo</a><br>
+        <a href="#com">Community</a><br>
+        <p>&nbsp;</p>
+        <a href="#tab">Rock Climbing Popularity (Tableau)</a><br>
+        <p>&nbsp;</p>
+        <a href="#game">Rock Climbing Jargon Quiz</a><br>
+    </div>
+    
+    <div class="common mainbody">
+        <!-- Main body content about Rock Climbing, with id codes connecting to quicklinks in left menu AND custom bolding styles applied in lists -->
+        <h1 id="rock">My Favorite Hobby: ROCK CLIMBING</h1>
+        <p>Rock climbing is a thrilling and challenging sport that combines physical strength, mental focus, and a deep connection with nature. It offers a unique blend of adventure and fitness, allowing climbers to explore breathtaking landscapes while pushing their limits. Whether scaling towering cliffs or navigating indoor walls, rock climbing provides an exhilarating escape from the everyday routine.</p>
+        <p id="req_gear">To start climbing, climbers need...</p>
+        <ul>
+            <li><span class="bold_list">Climbing shoes:</span> These unique shoes provide grip and support through specialized rubbers, which include...</li>
+                <ol>
+                    <li><span class="bold_sublist">Firm rubbers:</span> Best for enhanced edging capabilities on tiny rock ledges.</li>
+                    <li><span class="bold_sublist">Soft rubbers:</span> Best for extremely sticky grip when working on overhangs.</li>
+                </ol>
+            <li><span class="bold_list">Harness:</span> An essential for safety, connecting the climber to the rope and belay system. Belay systems include...</li>
+                <ol>
+                    <li><span class="bold_sublist">ATC:</span> A tube-style belay device that allows for smooth rope management.</li>
+                    <li><span class="bold_sublist">Grigri:</span> A self-locking cam belay device that provides added safety during climbs--ideal for lead climbing.</li>
+                </ol>
+            <li><span class="bold_list">Chalk:</span> Climbers use chalk to keep their hands dry and improve grip on holds.</li>
+            <li><span class="bold_list">Rope:</span> For outdoor climbing, a dynamic rope is necessary for safety during falls. Standard rope length options include...</li>
+                <ol>
+                    <li><span class="bold_sublist">40m:</span> A good length for short sport climbs and gym climbs.</li>
+                    <li><span class="bold_sublist">60m:</span> A standard length for most sport climbs.</li>
+                    <li><span class="bold_sublist">70m:</span> Ideal for longer routes and multi-pitch climbs.</li>
+                </ol>
+            <li><span class="bold_list">Helmet:</span> A helmet protects climbers from falling rocks and other hazards.</li>
+        </ul>
+        
+        <!-- Link to image of climbing gear -->
+        <img src="https://verticalvoyages.com/wp-content/uploads/2022/02/IMG_0619-rotated.jpg" alt="An image of climbing gear necessary for safe enjoyment of the sport." height="480">
+        
+        <p>&nbsp;</p>
+        
+        <p id="rew_asp">One of the most rewarding aspects of rock climbing is the sense of accomplishment that comes with conquering a difficult route. Each climb presents its own set of challenges, requiring problem-solving skills and perseverance. The feeling of reaching the summit or completing a challenging boulder problem is unmatched, making every effort worthwhile.</p>
+        <p id="Alex">For this reason, many famous climbers have endeavored to push the boundaries of what is considered possible, climbing insane peaks. One such climber is Alex Honnold, who free solo-ed (meaning he climbed without any protection gear) El Capitan in Yosemite, California. Here's a clip of his climb:</p>
+        
+        <!-- Embedded video of Alex Honnold's Free Solo -->
+        <iframe
+            width="560" height="315" 
+            src="https://www.youtube.com/embed/tnRoda7Ke2w?si=m4UMjNcWpFu52K1Q" 
+            title="Alex Honnold Free Solo El Capitan" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+
+        <p>&nbsp;</p>
+        
+        <p id="com">In addition to the thrill, rock climbing fosters a strong sense of community. Climbers often form tight-knit bonds with fellow enthusiasts, sharing tips, encouragement, and unforgettable experiences. Whether at a local climbing gym or a remote crag, the camaraderie among climbers creates a supportive environment that enhances the overall experience.</p>
+        <p>Rock Climbing is the BEST!</p>
+
+        <!-- Spaces before next Section -->
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <!-- Rock Climbing Popularity Tableau Dashboard, embedded into website -->
+        <h1 id="tab">Rock Climbing Popularity</h1>
+        <p>Rock climbing recently became an Olympic Sport, making its debut in the 2020 Olympics in Tokyo. Originating in European countries near the Alps (including Switzerland, Germany, and Italy), the sport of rock climbing has become increasingly popular in England. The tableau dashboard below illustrates the increasing availablility of climbs near London, breaking them down by climb type (Boulder or Roped) and climb difficulty (easy, medium, or hard).</p>
+        
+        <div class='tableauPlaceholder' id='viz1744155828127' style='position: relative'>
+            <noscript>
+                <a href='#'><img alt='Where is best to climb outdoors within 100 miles of London? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whereisbesttoclimboutdoorswithin100milesofLondonv01_01&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='Whereisbesttoclimboutdoorswithin100milesofLondonv01_01&#47;Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whereisbesttoclimboutdoorswithin100milesofLondonv01_01&#47;Dashboard1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1744155828127');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='1366px';vizElement.style.height='795px';                    
+            var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+
+        <!-- Spaces before next Section -->
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <!-- Rock Climbing Jargon Guessing Game, created with help from AI -->
+        <h1 id="game">Rock Climbing Jargon Guessing Game</h1>
+        <p>Test your knowledge of rock climbing jargon with this fun guessing game! Try to guess the meaning of the following terms:</p>
+        
+        <div id="climbing-quiz-box">
+            <div id="start-screen">
+            <button class="cq-btn" onclick="startGame()">Start Quiz</button>
+            </div>
+        
+            <div id="question-screen" style="display: none;">
+            <div id="question-number"></div>
+            <p id="question-text"></p>
+            <div id="options"></div>
+            <div id="feedback"></div>
+            <button class="cq-btn" id="next-button" onclick="nextQuestion()" style="display:none;">Next</button>
+            </div>
+        
+            <div id="result-screen" style="display: none;">
+            <h2>Quiz Complete!</h2>
+            <p id="final-score"></p>
+            <button class="cq-btn" onclick="startGame()">Start New Game</button>
+            </div>
+        </div>
+        
+        <script>
+            const questions = [
+            { term: "Crimp", def: "A small edge you grip with the tips of your fingers." },
+            { term: "Flash", def: "Completing a route on your first try with prior knowledge or beta." },
+            { term: "Jug", def: "A large, easily grabbable hold." },
+            { term: "Dyno", def: "A dynamic move where you jump to the next hold." },
+            { term: "Send", def: "Successfully completing a route or problem." },
+            { term: "Beta", def: "Information or advice about how to complete a climb." },
+            { term: "Pump", def: "The buildup of lactic acid in your forearms making it hard to hold on." },
+            { term: "Onsight", def: "Completing a route on your first attempt with no prior knowledge." },
+            { term: "Sloper", def: "A rounded hold that relies on friction rather than grip." },
+            { term: "Barn Door", def: "When your body swings uncontrollably due to imbalance on the wall." },
+            { term: "Crux", def: "The most difficult part of a climb." },
+            { term: "Pocket", def: "A hold that requires you to insert and hook your hand or fingers." },
+            { term: "Pinch", def: "A climbing hold that requires you to clamp the rock with your hand or fingers." },
+            { term: "Heel Hook", def: "A technique where the climber uses their heel to pull on a hold." },
+            { term: "Mantle", def: "A move where the climber pushes down on a hold to get over it." },
+            { term: "Boulder Problem", def: "A short, challenging climb without ropes." },
+            { term: "Lead Climbing", def: "A climbing style where the climber clips into protection as they ascend." },
+            { term: "Route", def: "A specific path or line on a climbing wall or rock face." },
+            { term: "Whipper", def: "When the climber takes a large fall." },
+            { term: "Slab", def: "A steep rock face with minimal holds." },
+            { term: "Overhang", def: "A section of rock that is angled downward so that the climber is \"hanging\"." }
+            ];
+        
+            let shuffledQuestions = [];
+            let currentIndex = 0;
+            let score = 0;
+        
+            function startGame() {
+            shuffledQuestions = shuffleArray([...questions]);
+            currentIndex = 0;
+            score = 0;
+            document.getElementById("start-screen").style.display = "none";
+            document.getElementById("result-screen").style.display = "none";
+            document.getElementById("question-screen").style.display = "block";
+            showQuestion();
+            }
+        
+            function showQuestion() {
+            const current = shuffledQuestions[currentIndex];
+            document.getElementById("question-text").textContent = current.def;
+            document.getElementById("question-number").textContent = `Question ${currentIndex + 1} of 10`;
+            const optionsDiv = document.getElementById("options");
+            optionsDiv.innerHTML = '';
+            document.getElementById("feedback").textContent = '';
+            document.getElementById("next-button").style.display = "none";
+        
+            const answers = getRandomOptions(current.term);
+            answers.forEach(answer => {
+                const btn = document.createElement("button");
+                btn.textContent = answer;
+                btn.className = "cq-btn option-btn";
+                btn.onclick = () => checkAnswer(answer, current.term);
+                optionsDiv.appendChild(btn);
+            });
+            }
+        
+            function checkAnswer(selected, correct) {
+            const feedback = document.getElementById("feedback");
+            if (selected === correct) {
+                feedback.textContent = "✅ Correct!";
+                score++;
+            } else {
+                feedback.textContent = `❌ Wrong! The correct answer was: ${correct}`;
+            }
+        
+            document.querySelectorAll(".option-btn").forEach(btn => {
+                btn.disabled = true;
+            });
+        
+            const nextBtn = document.getElementById("next-button");
+            nextBtn.textContent = currentIndex < 9 ? "Next" : "Finish";
+            nextBtn.style.display = "inline-block";
+            }
+        
+            function nextQuestion() {
+            currentIndex++;
+            if (currentIndex < 10) {
+                showQuestion();
+            } else {
+                showResult();
+            }
+            }
+        
+            function showResult() {
+            document.getElementById("question-screen").style.display = "none";
+            document.getElementById("result-screen").style.display = "block";
+            document.getElementById("final-score").textContent = `You got ${score} out of 10 correct.`;
+            }
+        
+            function getRandomOptions(correctTerm) {
+            let options = [correctTerm];
+            while (options.length < 4) {
+                const rand = questions[Math.floor(Math.random() * questions.length)].term;
+                if (!options.includes(rand)) options.push(rand);
+            }
+            return shuffleArray(options);
+            }
+        
+            function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+            }
+        </script>
+
+        <!-- Spaces before bottom of the page -->
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <!-- hyperlink to go back to the top of the page ("top" id is part of "Home" link) -->
+        <a href="#top">Top of Page</a><br>
+        
+        <!-- more spaces before bottom of page -->
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+    </div>
+
+    <!-- Footer with copyright information -->
+    <div class="common footer">
+        Copyright &copy; 2025 Dan Rosier<br>
+    </div>    
+</body>
+</html>
